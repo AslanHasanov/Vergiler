@@ -1,0 +1,103 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.xidmet{
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+}
+.container{
+    width: 100%;
+   padding: 2rem 20rem;
+    display: flex;
+}
+
+.slidebar{
+    width: 100%;
+    display: flex;
+    
+}
+.slidebar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slidebar li{
+    padding-top: 10px;
+    padding-left: 2rem;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+}
+.left{
+    width: 55%;
+}
+.left img{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.banner{
+    padding: 2rem 20rem;
+    display: flex;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+   
+}
+.right .box{
+    padding: 2.5rem 1rem;
+    width: 70%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.right .a{
+    background-color: #69ACF1;
+
+}
+.right .b{
+    background-color: #0EC4A3;
+}
+.right a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  
+}
+.right .c a{
+    color: black
+}
+.right .c{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right .botleft{
+    width: 20%;
+   
+}
+.right .botleft img{
+    width: 100%
+}
+
+.right .botright{
+    width: 80%
+}
+.right .botright a{
+    width: 80%;  
+}
+@media(max-width:576px){
+
+}
